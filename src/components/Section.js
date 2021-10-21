@@ -1,22 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Section() {
+function Section({
+    title,
+    description,
+    leftBtnText,
+    righBtnText,
+    backgroundImg
+}) {
     return (
-        <Wrap>
+        <Wrap bgImage={backgroundImg}>
             <ItemText>
-                <h1>Model S</h1>
-                <p>Order Online For Touchless Devivery</p>
+                <h1>{title}</h1>
+                <p>{description}</p>
             </ItemText>
 
             <Buttons>
                 <ButtonGroup>
                     <LeftButton>
-                        Custome Order
+                        {leftBtnText}
                     </LeftButton>
-                    <RightButton>
-                        Existing Inventory
-                    </RightButton>
+                    {righBtnText &&
+                        <RightButton>
+                            {righBtnText}
+                        </RightButton>
+                    }
+
                 </ButtonGroup>
 
                 <DownArrow src='/images/down-arrow.svg' />
@@ -33,7 +42,7 @@ const Wrap = styled.div`
     height: 100vh;
     background:orange;
     background-size:cover;
-    background-image:url('/images/model-s.jpg');
+    background-image:${props => `url("/images/${props.bgImage}")`};
     background-position:center;
     background-repeat:no-repeat;
     display:flex;
@@ -50,6 +59,9 @@ text-align:center;
 const ButtonGroup = styled.div`
 display:flex;
 margin-bottom:100px;
+@media (max-width: 768px){
+    flex-direction:column;
+}
 `
 
 const LeftButton = styled.div`
