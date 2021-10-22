@@ -35,7 +35,6 @@ function Header() {
 
                 {cars && cars.map((car, index) => <li key={index}><a href='#'>{car}</a></li>)}
 
-
                 <li><a href='#'>Used Inventory</a></li>
                 <li><a href='#'>Trade In</a></li>
                 <li><a href='#'>Cyber Truck</a></li>
