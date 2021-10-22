@@ -14,14 +14,14 @@ function Home() {
             <Section
                 title='Model Y'
                 description='Order Online For Touchless Devivery'
-                backgroundImg='model-s.jpg'
+                backgroundImg='model-y.jpg'
                 leftBtnText='Custome Order'
                 righBtnText='Existing Inventory'
             />
             <Section
                 title='Model 3'
                 description='Order Online For Touchless Devivery'
-                backgroundImg='model-y.jpg'
+                backgroundImg='model-3.jpg'
                 leftBtnText='Custome Order'
                 righBtnText='Existing Inventory'
             />

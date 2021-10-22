@@ -45,7 +45,7 @@ const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
     background:orange;
-    background-size:cover;
+    background-size:fit;
     background-image:${props => `url("./assets/images/${props.bgImage}")`};
     background-position:center;
     background-repeat:no-repeat;
