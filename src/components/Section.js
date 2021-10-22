@@ -30,7 +30,6 @@ function Section({
                                 {righBtnText}
                             </RightButton>
                         }
-
                     </ButtonGroup>
                 </Fade>
                 <DownArrow src='./assets/images/down-arrow.svg' />
@@ -93,9 +92,9 @@ const DownArrow = styled.img`
 margin-top:20px;
 height:40px;
 animation: animateDown 1s infinite;
-overflow-x:hidden
+overflow-x:hidden;
+text-align:center;
 `
 
 const Buttons = styled.div`
-
 `
