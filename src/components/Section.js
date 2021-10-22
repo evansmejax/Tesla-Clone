@@ -33,9 +33,8 @@ function Section({
 
                     </ButtonGroup>
                 </Fade>
-                <DownArrow src='/images/down-arrow.svg' />
+                <DownArrow src='./assets/images/down-arrow.svg' />
             </Buttons>
-
         </Wrap>
     )
 }
