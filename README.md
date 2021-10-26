@@ -1,7 +1,7 @@
 ## Tests
-[Tests](https://tesla.evansmeja.tk/) or https://tesla.evansmeja.tk/.
+https://tesla.evansmeja.tk/
 
-## NEW CONCEPTS APPLIED
+## Concepts
 
 - react-redux toolkit
 - styled components
