@@ -32,7 +32,7 @@ function Section({
                         }
                     </ButtonGroup>
                 </Fade>
-                <DownArrow src='./assets/images/down-arrow.svg' />
+                <DownArrow src='/static/images/down-arrow.svg' />
             </Buttons>
         </Wrap>
     )
@@ -45,7 +45,7 @@ const Wrap = styled.div`
     height: 100vh;
     background:orange;
     background-size:fit;
-    background-image:${props => `url("./assets/images/${props.bgImage}")`};
+    background-image:${props => `url("/static/images/${props.bgImage}")`};
     background-position:center;
     background-repeat:no-repeat;
     display:flex;
@@ -53,6 +53,10 @@ const Wrap = styled.div`
     justify-content:space-between; 
     align-items:center;
 `
+
+
+
+
 
 const ItemText = styled.div`
 padding-top:15vh;
