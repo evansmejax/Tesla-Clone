@@ -1,5 +1,5 @@
 ## Tests
-[Tests](https://evansmeja.github.io/Tesla-Clone//) or https://evansmeja.github.io/Tesla-Clone/ .
+[Tests](https://tesla.evansmeja.tk/) or https://tesla.evansmeja.tk/.
 
 ## NEW CONCEPTS APPLIED
 
