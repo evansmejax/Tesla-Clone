@@ -1,5 +1,5 @@
 ## Tests
-https://tesla.evansmeja.tk/
+https://evansmeja.github.io/Tesla-Clone/
 
 ### Concepts
 
